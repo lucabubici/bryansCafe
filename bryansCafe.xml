@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="bryansCafe.xsl"?>
+<!DOCTYPE bryansCafe[
+    <!ELEMENT bryansCafe (product*)>
+    <!ELEMENT product (productName, price, description, productImg, productSound)>
+    <!ELEMENT productName (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT productImg (#PCDATA)>
+    <!ELEMENT productSound (#PCDATA)>
+]>
+
+<bryansCafe>
+    <product>
+        <productName>Beetrot and feta salad</productName>
+        <price>$15.00</price>
+        <description>Suitable for vegeterians, made with fresh beetroot.</description>            
+        <productImg>beetrotAndFetaSalad.gif</productImg>
+        <productSound>beetrotAndFetaSalad.mp3</productSound>
+    </product>
+    <product>
+        <productName>Sourdough Rye Sandwich</productName>
+        <price>$18.00</price>
+        <description>Cheese and salad sandwich made with organic, sourdough rye bread.</description>
+        <productImg>sourdoughRyeSandwich.gif</productImg>
+        <productSound>sourdoughRyeSandwich.mp3</productSound>
+    </product>
+    <product>
+        <productName>Spinach Pie Salad</productName>
+        <price>$20.00</price>
+        <description>Tasty pie with salad.</description>
+        <productImg>spinachPieSalad.gif</productImg>
+        <productSound>spinachPieSalad.mp3</productSound>
+    </product>
+    <product>
+        <productName>Feta pancakes with salad</productName>
+        <price>$19.50</price>
+        <description>Tasty pancake filled with feta and salad.</description>
+        <productImg>fetaPancakesWithSalad.gif</productImg>
+        <productSound>fetaPancakesWithSalad.mp3</productSound>
+    </product>
+</bryansCafe>
